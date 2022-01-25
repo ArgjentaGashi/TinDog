@@ -1,0 +1,173 @@
+body{
+
+}
+
+
+/* Title */
+
+#title {
+  background-color: #ff4c68;
+}
+@media (max-width: 1028px) {
+#title{
+  text-align: center;
+}
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: "Ubuntu";
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #8f8f8f;
+
+
+}
+.container-fluid{
+  padding: 3% 15% 7% ;
+}
+.foto {
+  width: 50%;
+  margin-left: 22%;
+  transform:rotate(25deg);
+  position: absolute;
+
+}
+@media (max-width: 1028px){
+  .foto{
+    position: static;
+    transform: rotate(0);
+  }
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-nav{
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.row{
+  padding-top: 4.5rem;
+}
+
+.butoni{
+  margin: 5% 3% 5% 0;
+
+}
+.ikona{
+  padding-right: 10px;
+}
+/* Features */
+
+#features{
+  padding: 3% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.features-p{
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  color: #8f8f8f;
+}
+.features-h{
+  font-size: 1.5rem;
+}
+.fd{
+text-align: center;
+padding: 5%;
+}
+.fas{
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align:center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.t-text{
+  font-size: 3rem;
+  line-height: 1.5
+}
+.dog{
+  border-radius: 50%;
+  width: 10%;
+  margin: 5%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.p-pres{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* Pricing  */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-table{
+  padding: 3% 2%;
+}
+
+/* Last Section */
+
+#cta{
+  background-color: #ff4c68;
+padding: 5%;
+text-align: center;
+color: white;
+}
+.last{
+  padding: 5% 13% 0%;
+    font-size: 3.5rem;
+line-height: 1.5;
+}
+
+
+/* Footer */
+#footer{
+
+  padding: 7% 15%;
+background-color: white;
+text-align: center;
+}
+.last-icon{
+  margin: 20px 10px;
+  color: black;
+}
+.last-icon:hover{
+  color: #ef8172;
+}
